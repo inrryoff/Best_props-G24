@@ -1,0 +1,30 @@
+# ============================================
+# PERFORMANCE MOD G24 - Helio G85
+# ============================================
+
+config.low_ram=false
+persist.sys.force_highendgfx=true
+debug.performance.tuning=1
+video.accelerate.hw=1
+ro.hwui.target_fps=90
+ro.config.max_starting_bg=8
+persist.sys.purgeable_assets=1
+view.scroll_friction=0.008
+view.touch_slop=2
+debug.sf.hw=1
+debug.composition.type=gpu
+persist.sys.ui.hw=1
+dalvik.vm.heapsize=512m
+dalvik.vm.heapgrowthlimit=256m
+dalvik.vm.heaptargetutilization=0.75
+net.tcp.buffersize.default=4096,87380,256960,4096,16384,256960
+net.tcp.buffersize.wifi=4096,87380,256960,4096,16384,256960
+ro.media.enc.jpeg.quality=100
+ro.media.dec.jpeg.memcap=8000000
+debug.egl.swapinterval=0
+persist.graphics.vsync.disable=1
+debug.sf.disable_backpressure=1
+persist.sys.enable_low_latency_touch=1
+windowsmgr.max_events_per_sec=240
+ro.sys.fw.bg_apps_limit=40
+persist.gpu.perf_mode=1
