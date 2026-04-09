@@ -10,7 +10,7 @@
 
 ## 📱 Sobre
 
-ConfigProps é um módulo Magisk que aplica otimizações de performance ao sistema, com **failsafe integrado** que previne bootloop.
+Best_props-G24 é um módulo Magisk que aplica otimizações de performance ao sistema, com **failsafe integrado** que previne bootloop.
 
 ### Características
 
@@ -27,11 +27,13 @@ ConfigProps é um módulo Magisk que aplica otimizações de performance ao sist
 | Requisito | Especificação |
 |-----------|--------------|
 | **Dispositivo** | Moto G24 (fogorow) |
-| **Android** | 12 ou superior |
+| **Android** | 12+ |
 | **Magisk** | 27.0+ |
 | **Root** | Sim |
 
 ---
+### ⚠️ Aviso
+Este modulo foi desenvolvido em uma GSI (Ganeric System Image) **CrDroid** portanto o uso deste modulo em ROM Stock (Original) pode ter incosistencias
 
 ## 📥 Instalação
 
@@ -43,11 +45,14 @@ ConfigProps é um módulo Magisk que aplica otimizações de performance ao sist
 4. Selecione o ZIP
 5. Reinicie
 
+### LICENÇA MIT
+Faça oq quiser com o codigo apenas de os creditos ao dev originial [@inrryoff](https://github.com/inrryoff)
+
 ### Verificação da instalação
 
 ```bash
 # Verificar se módulo está ativo
-ls /data/adb/modules/configprops/
+ls /data/adb/modules/Config_props/
 
 # Verificar props aplicadas
 getprop | grep -E "debug.hwui|debug.renderengine|dalvik.vm"
