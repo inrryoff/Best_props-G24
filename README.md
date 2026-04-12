@@ -1,6 +1,6 @@
 # ⚡ Best_props-G24 - Módulo Magisk de Performance
 
-**Otimizações avançadas de sistema para Moto G24 (Helio G85)**
+**Otimizações avançadas de sistema para crDroid e moto G24**
 
 [![Magisk](https://img.shields.io/badge/Magisk-27.0+-green.svg)](https://github.com/topjohnwu/Magisk)
 [![Android](https://img.shields.io/badge/Android-12+-blue.svg)](https://www.android.com)
