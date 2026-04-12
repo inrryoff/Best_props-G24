@@ -26,7 +26,6 @@ Best_props-G24 é um módulo Magisk que aplica otimizações de performance ao s
 
 | Requisito | Especificação |
 |-----------|--------------|
-| **Dispositivo** | Moto G24 (fogorow) |
 | **Android** | 12+ |
 | **Magisk** | 27.0+ |
 | **Root** | Sim |
